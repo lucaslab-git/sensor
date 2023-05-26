@@ -87,7 +87,7 @@ void Ausgabe()
   }
   Serial.println("");*/
 
-  for (size_t i = 0; i < 16; i++)
+  for (size_t i = 0; i < 15; i++)
   {
     Serial.print("|" + String(valuecolor[i]));
   }
